@@ -13,13 +13,17 @@ header {
 
 }
 
+.content-box {
+  float: right;
+}
+
 .headerh1 {
   font-size: 5em;
   color: white;
 }
 
 .headerh2 {
-  font-size: 1.5em;
+  font-size: 3.5em;
   color: white;
   font-style: italic;
   line-height: .5;
@@ -27,7 +31,15 @@ header {
 
 nav {
   font-weight: bold;
+}
 
+.nav {
+  text-decoration: none;
+}
+
+#open {
+  color: #2c99b6;
+  font-size: 1.2em;
 }
 
 footer {
