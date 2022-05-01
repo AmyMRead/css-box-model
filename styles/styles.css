@@ -1,0 +1,53 @@
+* {
+  font-family: arial, sans-serif;
+  color: #3a3a3a;
+  line-height: 2;
+  box-sizing: border-box;
+
+}
+
+header {
+  background-color: #2c99b6;
+  color: white;
+  margin: auto;
+
+}
+
+.headerh1 {
+  font-size: 5em;
+  color: white;
+}
+
+.headerh2 {
+  font-size: 1.5em;
+  color: white;
+  font-style: italic;
+  line-height: .5;
+}
+
+nav {
+  font-weight: bold;
+
+}
+
+footer {
+  height: 33rem;
+  background-color: #3a3a3a;
+  padding: 10rem;
+  margin: auto;
+
+}
+
+.footer {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.footernav {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
