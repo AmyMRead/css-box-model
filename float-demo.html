@@ -4,17 +4,37 @@
     <meta charset="utf-8">
     <title>Lesson Four: Float Activity</title>
     <style>
-    /*Add CSS style here*/
-    .content-box {
-            height: 5em;
-            width: 5em;
-            padding: 4em;
-            border: 1em solid;
-            margin: 1em;
-    }
-    #border-box {
-            box-sizing: border-box;
-    }
+      /*Add CSS style here*/
+      .content-box {
+        height: 5em;
+        width: 5em;
+        padding: 4em;
+        border: 1em solid;
+        margin: 1em;
+      }
+
+      #border-box {
+        box-sizing: border-box;
+      }
+
+      .content-box {
+        float: right;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      #border-box {
+        overflow: scroll;
+      }
+
+      footer {
+        height: 15rem;
+      }
+
     </style>
   </head>
   <body>
@@ -24,7 +44,7 @@
         <h1>Headline</h1>
       </header>
 
-      <section>
+      <section class="clearfix">
 
         <h1>A section</h1>
         <article class="content-box">
