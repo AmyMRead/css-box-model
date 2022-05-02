@@ -55,6 +55,11 @@ a {
   font-size: 1.75rem;
 }
 
+#quote {
+  color: #2c99b6;
+  font-size: 1.75rem;
+}
+
 footer {
   height: 33rem;
   background-color: #3a3a3a;
@@ -65,7 +70,7 @@ footer {
 .footer {
   color: white;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 
 }
 
@@ -73,5 +78,5 @@ footer {
   color: white;
   font-weight: bold;
   text-decoration: none;
-  text-align: left;
+  text-align: center;
 }
