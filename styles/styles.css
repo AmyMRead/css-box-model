@@ -32,6 +32,32 @@ a {
   width: 25%
 }
 
+/*For flex box. */
+
+.box {
+  width: 100%;
+  height: auto;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+
+.column {
+  flex: 50%;
+}
+
 .headerh1 {
   font-size: 5em;
   color: white;
@@ -101,30 +127,4 @@ footer {
   height: 1px;
   overflow: hidden;
 
-}
-
-/*For flex box. */
-
-.box {
-  width: 100%;
-  height: auto;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.row {
-  display: flex;
-
-.column {
-  flex: 50%;
 }
